@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		016DA18320A9D4BC0025DFAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA18220A9D4BC0025DFAA /* AppDelegate.m */; };
+		016DA18B20A9D4BD0025DFAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 016DA18A20A9D4BD0025DFAA /* Assets.xcassets */; };
+		016DA18E20A9D4BD0025DFAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016DA18C20A9D4BD0025DFAA /* LaunchScreen.storyboard */; };
+		016DA19120A9D4BD0025DFAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA19020A9D4BD0025DFAA /* main.m */; };
+		016DA1A620A9D52C0025DFAA /* YLPopupViewAnimationDrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA19C20A9D52C0025DFAA /* YLPopupViewAnimationDrop.m */; };
+		016DA1A720A9D52C0025DFAA /* UIViewController+YLPopupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA19F20A9D52C0025DFAA /* UIViewController+YLPopupViewController.m */; };
+		016DA1A820A9D52C0025DFAA /* YLPopupViewAnimationSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1A020A9D52C0025DFAA /* YLPopupViewAnimationSlide.m */; };
+		016DA1A920A9D52C0025DFAA /* YLPopupViewAnimationFade.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1A120A9D52C0025DFAA /* YLPopupViewAnimationFade.m */; };
+		016DA1AA20A9D52C0025DFAA /* YLPopupViewAnimationSpring.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1A320A9D52C0025DFAA /* YLPopupViewAnimationSpring.m */; };
+		016DA1AB20A9D52C0025DFAA /* YLPopupBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1A520A9D52C0025DFAA /* YLPopupBackgroundView.m */; };
+		016DA1AE20A9D5830025DFAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1AD20A9D5830025DFAA /* ViewController.m */; };
+		016DA1B020A9D58C0025DFAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016DA1AF20A9D58C0025DFAA /* Main.storyboard */; };
+		016DA1B520A9D5CA0025DFAA /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 016DA1B220A9D5CA0025DFAA /* TextView.m */; };
+		016DA1B620A9D5CA0025DFAA /* TextView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016DA1B320A9D5CA0025DFAA /* TextView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		016DA17E20A9D4BC0025DFAA /* YLPopupViewControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLPopupViewControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		016DA18120A9D4BC0025DFAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		016DA18220A9D4BC0025DFAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		016DA18A20A9D4BD0025DFAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		016DA18D20A9D4BD0025DFAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		016DA18F20A9D4BD0025DFAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		016DA19020A9D4BD0025DFAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		016DA19920A9D52C0025DFAA /* YLPopupViewAnimationSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupViewAnimationSlide.h; sourceTree = "<group>"; };
+		016DA19A20A9D52C0025DFAA /* UIViewController+YLPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YLPopupViewController.h"; sourceTree = "<group>"; };
+		016DA19B20A9D52C0025DFAA /* YLPopupViewAnimationFade.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupViewAnimationFade.h; sourceTree = "<group>"; };
+		016DA19C20A9D52C0025DFAA /* YLPopupViewAnimationDrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPopupViewAnimationDrop.m; sourceTree = "<group>"; };
+		016DA19D20A9D52C0025DFAA /* YLPopupViewAnimationSpring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupViewAnimationSpring.h; sourceTree = "<group>"; };
+		016DA19E20A9D52C0025DFAA /* YLPopupBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupBackgroundView.h; sourceTree = "<group>"; };
+		016DA19F20A9D52C0025DFAA /* UIViewController+YLPopupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YLPopupViewController.m"; sourceTree = "<group>"; };
+		016DA1A020A9D52C0025DFAA /* YLPopupViewAnimationSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPopupViewAnimationSlide.m; sourceTree = "<group>"; };
+		016DA1A120A9D52C0025DFAA /* YLPopupViewAnimationFade.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPopupViewAnimationFade.m; sourceTree = "<group>"; };
+		016DA1A220A9D52C0025DFAA /* YLPopupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupViewController.h; sourceTree = "<group>"; };
+		016DA1A320A9D52C0025DFAA /* YLPopupViewAnimationSpring.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPopupViewAnimationSpring.m; sourceTree = "<group>"; };
+		016DA1A420A9D52C0025DFAA /* YLPopupViewAnimationDrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPopupViewAnimationDrop.h; sourceTree = "<group>"; };
+		016DA1A520A9D52C0025DFAA /* YLPopupBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPopupBackgroundView.m; sourceTree = "<group>"; };
+		016DA1AC20A9D5830025DFAA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		016DA1AD20A9D5830025DFAA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		016DA1AF20A9D58C0025DFAA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		016DA1B220A9D5CA0025DFAA /* TextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextView.m; sourceTree = "<group>"; };
+		016DA1B320A9D5CA0025DFAA /* TextView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextView.xib; sourceTree = "<group>"; };
+		016DA1B420A9D5CA0025DFAA /* TextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		016DA17B20A9D4BC0025DFAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		016DA17520A9D4BC0025DFAA = {
+			isa = PBXGroup;
+			children = (
+				016DA18020A9D4BC0025DFAA /* YLPopupViewControllerDemo */,
+				016DA17F20A9D4BC0025DFAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		016DA17F20A9D4BC0025DFAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				016DA17E20A9D4BC0025DFAA /* YLPopupViewControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		016DA18020A9D4BC0025DFAA /* YLPopupViewControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				016DA1B120A9D5B90025DFAA /* View */,
+				016DA19820A9D52C0025DFAA /* YLPopupViewController */,
+				016DA18120A9D4BC0025DFAA /* AppDelegate.h */,
+				016DA18220A9D4BC0025DFAA /* AppDelegate.m */,
+				016DA1AC20A9D5830025DFAA /* ViewController.h */,
+				016DA1AD20A9D5830025DFAA /* ViewController.m */,
+				016DA1AF20A9D58C0025DFAA /* Main.storyboard */,
+				016DA18A20A9D4BD0025DFAA /* Assets.xcassets */,
+				016DA18C20A9D4BD0025DFAA /* LaunchScreen.storyboard */,
+				016DA18F20A9D4BD0025DFAA /* Info.plist */,
+				016DA19020A9D4BD0025DFAA /* main.m */,
+			);
+			path = YLPopupViewControllerDemo;
+			sourceTree = "<group>";
+		};
+		016DA19820A9D52C0025DFAA /* YLPopupViewController */ = {
+			isa = PBXGroup;
+			children = (
+				016DA1A220A9D52C0025DFAA /* YLPopupViewController.h */,
+				016DA19A20A9D52C0025DFAA /* UIViewController+YLPopupViewController.h */,
+				016DA19F20A9D52C0025DFAA /* UIViewController+YLPopupViewController.m */,
+				016DA19E20A9D52C0025DFAA /* YLPopupBackgroundView.h */,
+				016DA1A520A9D52C0025DFAA /* YLPopupBackgroundView.m */,
+				016DA19920A9D52C0025DFAA /* YLPopupViewAnimationSlide.h */,
+				016DA1A020A9D52C0025DFAA /* YLPopupViewAnimationSlide.m */,
+				016DA19B20A9D52C0025DFAA /* YLPopupViewAnimationFade.h */,
+				016DA1A120A9D52C0025DFAA /* YLPopupViewAnimationFade.m */,
+				016DA19D20A9D52C0025DFAA /* YLPopupViewAnimationSpring.h */,
+				016DA1A320A9D52C0025DFAA /* YLPopupViewAnimationSpring.m */,
+				016DA1A420A9D52C0025DFAA /* YLPopupViewAnimationDrop.h */,
+				016DA19C20A9D52C0025DFAA /* YLPopupViewAnimationDrop.m */,
+			);
+			name = YLPopupViewController;
+			path = ../../YLPopupViewController;
+			sourceTree = "<group>";
+		};
+		016DA1B120A9D5B90025DFAA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				016DA1B420A9D5CA0025DFAA /* TextView.h */,
+				016DA1B220A9D5CA0025DFAA /* TextView.m */,
+				016DA1B320A9D5CA0025DFAA /* TextView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		016DA17D20A9D4BC0025DFAA /* YLPopupViewControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 016DA19420A9D4BD0025DFAA /* Build configuration list for PBXNativeTarget "YLPopupViewControllerDemo" */;
+			buildPhases = (
+				016DA17A20A9D4BC0025DFAA /* Sources */,
+				016DA17B20A9D4BC0025DFAA /* Frameworks */,
+				016DA17C20A9D4BC0025DFAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLPopupViewControllerDemo;
+			productName = YLPopupViewControllerDemo;
+			productReference = 016DA17E20A9D4BC0025DFAA /* YLPopupViewControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		016DA17620A9D4BC0025DFAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = cy;
+				TargetAttributes = {
+					016DA17D20A9D4BC0025DFAA = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 016DA17920A9D4BC0025DFAA /* Build configuration list for PBXProject "YLPopupViewControllerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 016DA17520A9D4BC0025DFAA;
+			productRefGroup = 016DA17F20A9D4BC0025DFAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				016DA17D20A9D4BC0025DFAA /* YLPopupViewControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		016DA17C20A9D4BC0025DFAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DA1B020A9D58C0025DFAA /* Main.storyboard in Resources */,
+				016DA1B620A9D5CA0025DFAA /* TextView.xib in Resources */,
+				016DA18E20A9D4BD0025DFAA /* LaunchScreen.storyboard in Resources */,
+				016DA18B20A9D4BD0025DFAA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		016DA17A20A9D4BC0025DFAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				016DA1AE20A9D5830025DFAA /* ViewController.m in Sources */,
+				016DA1B520A9D5CA0025DFAA /* TextView.m in Sources */,
+				016DA19120A9D4BD0025DFAA /* main.m in Sources */,
+				016DA1A720A9D52C0025DFAA /* UIViewController+YLPopupViewController.m in Sources */,
+				016DA1A920A9D52C0025DFAA /* YLPopupViewAnimationFade.m in Sources */,
+				016DA1A620A9D52C0025DFAA /* YLPopupViewAnimationDrop.m in Sources */,
+				016DA1AB20A9D52C0025DFAA /* YLPopupBackgroundView.m in Sources */,
+				016DA18320A9D4BC0025DFAA /* AppDelegate.m in Sources */,
+				016DA1AA20A9D52C0025DFAA /* YLPopupViewAnimationSpring.m in Sources */,
+				016DA1A820A9D52C0025DFAA /* YLPopupViewAnimationSlide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		016DA18C20A9D4BD0025DFAA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				016DA18D20A9D4BD0025DFAA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		016DA19220A9D4BD0025DFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		016DA19320A9D4BD0025DFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		016DA19520A9D4BD0025DFAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLPopupViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melon.YLPopupViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		016DA19620A9D4BD0025DFAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YLPopupViewControllerDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.melon.YLPopupViewControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		016DA17920A9D4BC0025DFAA /* Build configuration list for PBXProject "YLPopupViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DA19220A9D4BD0025DFAA /* Debug */,
+				016DA19320A9D4BD0025DFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		016DA19420A9D4BD0025DFAA /* Build configuration list for PBXNativeTarget "YLPopupViewControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				016DA19520A9D4BD0025DFAA /* Debug */,
+				016DA19620A9D4BD0025DFAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 016DA17620A9D4BC0025DFAA /* Project object */;
+}
